@@ -1,0 +1,345 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  font-size: 12px; }
+
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  color: #000; }
+
+b, strong {
+  font-weight: normal; }
+
+i, em {
+  font-style: normal; }
+
+.fl {
+  float: left; }
+
+.fr {
+  float: right; }
+
+.clearfix:after {
+  display: block;
+  content: '';
+  clear: both; }
+
+.clearfix {
+  zoom: 1; }
+
+input {
+  border: 0;
+  padding: 0;
+  outline: none;
+  background: none; }
+
+textarea {
+  resize: none; }
+
+table {
+  border-collapse: collapse; }
+
+img {
+  vertical-align: top; }
+
+p {
+  line-height: 100%; }
+
+header {
+  width: 16.0rem;
+  height: 2.25rem;
+  background: #262626;
+  border-bottom: 0.1rem solid #4bccae;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  header .menu {
+    width: 1.5rem;
+    height: 1.2rem;
+    background: url(../img/1.jpg) no-repeat;
+    background-size: 1.5rem 1.2rem;
+    text-indent: -9999rem;
+    margin-left: 0.4rem; }
+  header h1 {
+    font-size: 1.0rem;
+    color: #fff; }
+  header .pc {
+    width: 1.45rem;
+    height: 1.2rem;
+    background: url(../img/2.jpg) no-repeat;
+    background-size: 1.45rem 1.2rem;
+    text-indent: -9999rem;
+    margin-right: 0.4rem; }
+
+section .login {
+  width: 16.0rem;
+  height: 2.1rem;
+  display: flex;
+  align-items: center;
+  font-size: 0.75rem;
+  font-family: 'Microsoft YaHei'; }
+  section .login .login_DL {
+    width: 8.0rem;
+    height: 1.7rem;
+    color: #8c8a95;
+    background: url(../img/3.jpg) no-repeat 1.5rem 0.2rem;
+    background-size: 1.45rem 1.45rem;
+    border-right: 0.05rem solid #ccc;
+    padding-left: 3.45rem;
+    padding-top: 0.45rem;
+    box-sizing: border-box; }
+  section .login .login_ZC {
+    width: 8.0rem;
+    height: 1.7rem;
+    color: #8c8a95;
+    background: url(../img/4.jpg) no-repeat 1.5rem 0.2rem;
+    background-size: 1.45rem 1.45rem;
+    padding-left: 3.45rem;
+    padding-top: 0.45rem;
+    box-sizing: border-box; }
+
+section .banner {
+  width: 16.0rem;
+  height: 7.8rem;
+  background: url(../img/5.jpg) no-repeat;
+  background-size: 16.0rem 7.8rem;
+  overflow: hidden;
+  display: block; }
+  section .banner .ZZ {
+    width: 16.0rem;
+    height: 1.85rem;
+    background: #000;
+    margin-top: 5.95rem;
+    opacity: 0.7;
+    color: #fff;
+    text-align: center;
+    line-height: 1.85rem; }
+
+section .news {
+  width: 16.0rem;
+  height: 14.3rem;
+  border-bottom: 0.1rem solid #58c1b0; }
+  section .news li {
+    width: 15.25rem;
+    height: 2.0rem;
+    border-bottom: 0.05rem solid #ccc;
+    font-size: 0.75rem;
+    font-family: 'Microsoft YaHei';
+    margin: 0 auto;
+    line-height: 2.0rem; }
+  section .news .last {
+    border-bottom: none; }
+
+section .title {
+  width: 16.0rem;
+  height: 2.0rem;
+  border-bottom: 0.05rem solid #ccc;
+  display: flex;
+  justify-content: flex-end;
+  line-height: 2.0rem; }
+  section .title a {
+    width: 1.45rem;
+    height: 1.5rem;
+    background: url(../img/6.jpg) no-repeat;
+    background-size: 1.45rem 1.5rem;
+    display: block;
+    margin-right: 0.75rem;
+    margin-top: 0.25rem; }
+  section .title span {
+    font-size: 0.75rem;
+    font-family: 'Microsoft YaHei';
+    font-weight: bold;
+    color: #000;
+    margin-right: 9.95rem; }
+
+section .nav {
+  width: 16.0rem;
+  height: 2.05rem;
+  border-bottom: 0.05rem solid #ccc;
+  display: flex; }
+  section .nav li {
+    width: 3.1rem;
+    height: 2.05rem;
+    text-align: center;
+    line-height: 2.05rem; }
+    section .nav li a {
+      width: 3.1rem;
+      height: 2.05rem;
+      display: inline-block;
+      font-size: 0.7rem;
+      font-family: 'Microsoft YaHei'; }
+
+section .title_2 {
+  font-size: 0.75rem;
+  font-family: 'Microsoft YaHei';
+  font-weight: bold;
+  margin-top: 0.65rem;
+  margin-left: 0.7rem; }
+
+section .content {
+  width: 16.0rem;
+  height: 4.5rem;
+  display: flex;
+  justify-content: space-between;
+  line-height: 1.3rem;
+  margin-top: 0.65rem; }
+  section .content .content_img {
+    width: 5.2rem;
+    height: 3.7rem;
+    background: url(../img/7.jpg) no-repeat;
+    display: block;
+    margin-left: 0.75rem; }
+  section .content .content_text {
+    width: 9.35rem;
+    height: 3.7rem;
+    display: inline-block;
+    font-size: 0.7rem;
+    color: #8d9194; }
+
+section .news-1 {
+  width: 16.0rem;
+  height: 8.25rem;
+  border-bottom: 0.1rem solid #53c5ae; }
+  section .news-1 li {
+    width: 15.25rem;
+    height: 2.0rem;
+    border-top: 0.05rem solid #ccc;
+    font-size: 0.75rem;
+    font-family: 'Microsoft YaHei';
+    margin: 0 auto;
+    line-height: 2.0rem; }
+
+section .title_1 {
+  width: 16.0rem;
+  height: 2.0rem;
+  border-bottom: 0.05rem solid #ccc;
+  display: flex;
+  justify-content: flex-end;
+  line-height: 2.0rem; }
+  section .title_1 a {
+    width: 1.45rem;
+    height: 1.5rem;
+    background: url(../img/6.jpg) no-repeat;
+    background-size: 1.45rem 1.5rem;
+    display: block;
+    margin-right: 0.75rem;
+    margin-top: 0.25rem; }
+  section .title_1 span {
+    font-size: 0.75rem;
+    font-family: 'Microsoft YaHei';
+    font-weight: bold;
+    color: #000;
+    margin-right: 9.95rem; }
+
+section .nav_1 {
+  width: 16.0rem;
+  height: 2.05rem;
+  border-bottom: 0.05rem solid #ccc;
+  display: flex; }
+  section .nav_1 li {
+    width: 3.1rem;
+    height: 2.05rem;
+    text-align: center;
+    line-height: 2.05rem; }
+    section .nav_1 li a {
+      width: 3.1rem;
+      height: 2.05rem;
+      display: inline-block;
+      font-size: 0.7rem;
+      font-family: 'Microsoft YaHei'; }
+
+section .title_2_1 {
+  font-size: 0.75rem;
+  font-family: 'Microsoft YaHei';
+  font-weight: bold;
+  margin-top: 0.65rem;
+  margin-left: 0.7rem; }
+
+section .content_1 {
+  width: 16.0rem;
+  height: 4.5rem;
+  display: flex;
+  justify-content: space-between;
+  line-height: 1.3rem;
+  margin-top: 0.65rem; }
+  section .content_1 .content_img {
+    width: 5.2rem;
+    height: 3.7rem;
+    background: url(../img/8.jpg) no-repeat;
+    background-size: 5.2rem  3.7rem;
+    display: block;
+    margin-left: 0.75rem; }
+  section .content_1 .content_text {
+    width: 9.35rem;
+    height: 3.7rem;
+    display: inline-block;
+    font-size: 0.7rem;
+    color: #8d9194; }
+
+section .news-1_1 {
+  width: 16.0rem;
+  height: 11.25rem;
+  border-bottom: 0.1rem solid #53c5ae;
+  margin: 0 auto; }
+  section .news-1_1 li {
+    width: 15.25rem;
+    height: 2.0rem;
+    border-top: 0.05rem solid #ccc;
+    font-size: 0.75rem;
+    font-family: 'Microsoft YaHei';
+    margin: 0 auto;
+    line-height: 2.0rem; }
+  section .news-1_1 .HDDB {
+    width: 16.0rem;
+    height: 3.0rem;
+    background: url(../img/9.jpg) no-repeat 5.5rem 0.85rem;
+    background-size: 1.5rem 1.5rem;
+    display: inline-block;
+    border-top: 0.05rem solid #ccc;
+    line-height: 3.0rem; }
+    section .news-1_1 .HDDB span {
+      font-size: 0.75rem;
+      font-family: 'Microsoft YaHei';
+      color: #898989;
+      margin-left: 7.45rem; }
+
+.Footer {
+  width: 16.0rem;
+  height: 3.75rem;
+  background: #262626;
+  display: flex; }
+  .Footer .PC_1 {
+    width: 8.0rem;
+    height: 1.95rem;
+    background: url(../img/10.jpg) no-repeat 2rem 0.5rem;
+    background-size: 1.5rem 1.2rem;
+    display: inline-block;
+    margin-top: 0.9rem;
+    border-right: 0.05rem solid #ccc;
+    color: #fff;
+    line-height: 1.95rem; }
+    .Footer .PC_1 span {
+      font-size: 0.7rem;
+      font-family: 'Microsoft YaHei';
+      font-weight: bold;
+      margin-left: 4.1rem; }
+  .Footer .YD_1 {
+    width: 8.0rem;
+    height: 1.95rem;
+    background: url(../img/11.jpg) no-repeat 2rem 0.5rem;
+    background-size: 1.5rem 1.2rem;
+    display: inline-block;
+    margin-top: 0.9rem;
+    color: #fff;
+    line-height: 1.95rem; }
+    .Footer .YD_1 span {
+      font-size: 0.7rem;
+      font-family: 'Microsoft YaHei';
+      font-weight: bold;
+      margin-left: 4.1rem; }
