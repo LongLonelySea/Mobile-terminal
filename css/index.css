@@ -104,22 +104,22 @@ section .login {
     padding-top: 0.45rem;
     box-sizing: border-box; }
 
-section .banner {
-  width: 16.0rem;
-  height: 7.8rem;
-  background: url(../img/5.jpg) no-repeat;
-  background-size: 16.0rem 7.8rem;
-  overflow: hidden;
-  display: block; }
-  section .banner .ZZ {
+section .blue-slide {
+  background: #a2ff77; }
+
+section .red-slide {
+  background: #CA4040; }
+
+section .orange-slide {
+  background: #FF8604; }
+
+section .swiper-slide {
+  line-height: 5.0rem;
+  color: #fff;
+  text-align: center; }
+  section .swiper-slide img {
     width: 16.0rem;
-    height: 1.85rem;
-    background: #000;
-    margin-top: 5.95rem;
-    opacity: 0.7;
-    color: #fff;
-    text-align: center;
-    line-height: 1.85rem; }
+    height: 8rem; }
 
 section .news {
   width: 16.0rem;

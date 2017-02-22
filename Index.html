@@ -8,6 +8,8 @@
 	<meta name="apple-mobile-web-app-status-bar-style" content="black">
 	<meta name="format-detection" content="telephone=no, email=no">
 	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="css/swiper-3.4.1.min.css">
+    <script src="js/swiper-3.4.1.min.js"></script>
 	<script>
         document.documentElement.style.fontSize=20*document.documentElement.clientWidth/320+'px';
         window.onresize=function(){
@@ -30,9 +32,17 @@
 			<a href="javascript:;" class="login_ZC">用户注册</a>
 		</div>
 		<!-- 广告 -->
-		<a href="javascrpit:;" class="banner">
-			<div class="ZZ">2017祝您鸡年大吉!</div>
-		</a>
+		<div class="swiper-container">
+		    <div class="swiper-wrapper">
+		        <div class="swiper-slide blue-slide"><a href="javascript:;"><img src="img/a1.jpg" alt=""></a></div>
+		        <div class="swiper-slide red-slide"><a href="javascript:;"><img src="img/a2.jpg" alt=""></a></div>
+		        <div class="swiper-slide orange-slide"><a href="javascript:;"><img src="img/a3.jpg" alt=""></a></div>
+		    </div>
+		    <div class="swiper-pagination"></div>
+
+		    <a href="javascript:;" class="swiper-button-prev"></a>
+		    <a href="javascript:;" class="swiper-button-next"></a>
+		</div>
 		<!-- 新闻 -->
 		<ul class="news">
 			<li><a href="javascrpit:;">解读科学观点时，你应该知道的20个</a></li>
@@ -110,6 +120,16 @@
 		</a>
 	</div>
 </footer>
-
+<script>
+    new Swiper('.swiper-container',{
+        autoplay:3000,
+        speed:500,
+        loop : true,
+        pagination:'.swiper-pagination',
+        paginationType:'progress',
+        prevButton:'.swiper-button-prev',
+        nextButton:'.swiper-button-next',
+    });
+</script>
 </body>
 </html>
